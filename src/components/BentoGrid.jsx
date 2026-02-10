@@ -63,11 +63,11 @@ export default function BentoGrid() {
             </div>
           </motion.div>
         ))}
-        <div className="md:col-span-1">
+        <div className="md:col-span-1 h-full">
     <LeetCodeCard username="surabhi123" /> 
   </div>
 
-  <div className="md:col-span-4">
+  <div className="md:col-span-3 h-full">
     <GitHubStatsCard username="SurabhiV2003" />
   </div>
       </div>
