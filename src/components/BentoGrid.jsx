@@ -1,12 +1,13 @@
 import { motion } from 'motion/react';
 import { LeetCodeCard, GitHubStatsCard } from './StatsCards';
+import { section } from 'motion/react-client';
 
 const projects = [
   {
     title: "IEEE Publication: Real-Time HAR",
     description: "Hybrid CNN-CBAM-LSTM architecture achieving 99.7% accuracy. Compressed to 130.8 KB for edge deployment.",
     tags: ["Deep Learning", "Edge AI", "Python"],
-    size: "md:col-span-2 md:row-span-2", // The "Hero" project
+    size: "md:col-span-2 md:row-span-2", 
     color: "bg-blue-500/10 border-blue-500/20"
   },
   {
@@ -34,6 +35,7 @@ const projects = [
 
 export default function BentoGrid() {
   return (
+    <section id="work" className="max-w-6xl mx-auto p-4 py-20">
     <div className="max-w-6xl mx-auto p-4 py-20">
       <h2 className="text-3xl font-bold text-white mb-10 text-center">Featured Work</h2>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[minmax(200px,_auto)]">
@@ -63,6 +65,7 @@ export default function BentoGrid() {
             </div>
           </motion.div>
         ))}
+        
         <div className="md:col-span-1 h-full">
     <LeetCodeCard username="surabhi123" /> 
   </div>
@@ -72,5 +75,6 @@ export default function BentoGrid() {
   </div>
       </div>
     </div>
+    </section>
   );
 }

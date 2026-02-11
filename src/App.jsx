@@ -3,6 +3,8 @@ import HeroSummary from './components/HeroSummary'; // 1. Import the new compone
 import BentoGrid from './components/BentoGrid';
 import ResumeSection from './components/ResumeSection'; // Import this too for the PDF part
 import TechMarquee from './components/TechMarquee';
+import Contact from './components/Contact';
+import Reveal from './components/Reveal';
 
 function App() {
   return (
@@ -15,8 +17,13 @@ function App() {
       <main className="relative z-10 pt-32 pb-20">
         <HeroSummary /> 
         <TechMarquee />
-        <BentoGrid />
-        <ResumeSection />
+        <Reveal width="100%">
+          <BentoGrid />
+        </Reveal>
+        <Reveal width="100%"><ResumeSection /></Reveal>
+        <Reveal width="100%">
+          <Contact />
+        </Reveal>
       </main>
     </div>
   );
