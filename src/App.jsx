@@ -6,6 +6,7 @@ import TechMarquee from './components/TechMarquee';
 import Contact from './components/Contact';
 import Reveal from './components/Reveal';
 
+
 function App() {
   return (
     <div className="bg-[#020617] min-h-screen selection:bg-blue-500/30">
@@ -25,6 +26,7 @@ function App() {
           <Contact />
         </Reveal>
       </main>
+      
     </div>
   );
 }

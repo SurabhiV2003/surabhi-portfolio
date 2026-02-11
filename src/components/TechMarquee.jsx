@@ -1,9 +1,9 @@
 import { motion } from 'motion/react';
 
 const techStack = [
-  "Java", "Python", "C++", "Spring Boot", "GCP", "Vertex AI", 
-  "TensorFlow", "Keras", "OpenCV", "MySQL", "PostgreSQL", 
-  "Angular", "REST APIs", "Maven", "Git", "Scikit-learn"
+  "Java", "Python", "C++", "Spring Boot", "GCP",
+  "TensorFlow", "Keras", "OpenCV", "MySQL", "PostgreSQL",
+  "Angular", "React", "REST APIs", "Maven", "Git", "Scikit-learn", "YOLOv8", "EasyOCR"
 ];
 
 export default function TechMarquee() {

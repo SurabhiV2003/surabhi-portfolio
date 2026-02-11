@@ -31,7 +31,7 @@ export default function HeroSummary() {
         I'm a <span className="text-white font-semibold">Software Engineer </span> 
         at <span className="text-emerald-400 font-medium">LTI Mindtree </span> 
         with a strong foundation in backend development and applied machine learning. 
-        My work spans Java, Spring Boot, and GCP, with a research background that includes 
+        My work spans Java, Python, Spring Boot, and GCP, with a research background that includes 
         an <span className="text-blue-400 font-medium">IEEE-published framework for Human Activity Recognition</span>. I enjoy designing systems 
         that are reliable, data-driven, and built to scale.
       </motion.p>
