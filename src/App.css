@@ -56,3 +56,11 @@
     transform: translateY(-5px); /* Lift effect */
     opacity: 0.8;
 }
+
+/* In App.css or your Resume module CSS */
+.resume-container {
+  width: 100%;       /* Use 100% of the screen */
+  max-width: 800px;  /* But don't get too big on desktop */
+  margin: 0 auto;    /* Centers the container */
+  padding: 0 20px;   /* Adds a safe gap on the sides for mobile */
+}

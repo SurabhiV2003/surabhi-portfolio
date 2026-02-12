@@ -3,6 +3,7 @@ export default function ResumeSection() {
 
   return (
     <section id="resume" className="max-w-5xl mx-auto py-20 px-6">
+      <div className="flex flex-col items-center justify-center w-full px-4">
       <div className="flex flex-col md:flex-row justify-between items-end mb-8 gap-4">
         <div>
           <h2 className="text-3xl font-bold text-white">Resume</h2>
@@ -25,6 +26,7 @@ export default function ResumeSection() {
           className="w-full h-full"
           title="Surabhi Verma Resume"
         />
+      </div>
       </div>
     </section>
   );
