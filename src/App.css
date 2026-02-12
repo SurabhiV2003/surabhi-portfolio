@@ -40,3 +40,19 @@
 .read-the-docs {
   color: #888;
 }
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: translateY(-5px); /* Lift effect */
+    opacity: 0.8;
+}
